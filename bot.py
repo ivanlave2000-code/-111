@@ -30,8 +30,8 @@ logger = logging.getLogger(__name__)
 # ==========================================
 # ⚙️ КОНФИГУРАЦИЯ БОТА
 # ==========================================
-BOT_TOKEN = "8953457596:AAHOBGTQW_nRcQ2ewEW37HJUzbxQrWWb-B8"
-ADMIN_ID = 5749863973  # Твой Telegram ID
+BOT_TOKEN = "-"
+ADMIN_ID = -
 
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher(storage=MemoryStorage())
